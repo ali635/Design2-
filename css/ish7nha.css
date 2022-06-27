@@ -1,0 +1,57 @@
+:root {
+    --yellow-color: #fff904;
+}
+body{
+    background-color: #14141B;
+}
+.nav-item img {
+    width: 40px;
+}
+.dropdown-menu {
+    background-color: #1E1E27;
+    
+}
+.dropdown-menu li a:hover{
+    background-color: #4B5563;
+}
+.item img{
+    border-radius: 50px;
+}
+.header .head {
+    color: var(--yellow-color);
+    font-size: 40px;
+}
+.cards .row img{
+    border-radius: 25px;
+
+}
+.accordion {
+    padding-left: 100px;
+    padding-bottom: 20px;
+    
+}
+.accordion .accordion-item {
+    background-color: #1e1e27;
+    color:white;
+    border-radius: 30px;
+    width: 75%;
+    padding: 20px;
+
+}
+.accordion-header .accordion-button{
+    background-color: #1e1e27;
+    color: white;
+    border-radius: 30px;
+    height: 15px;
+}
+footer{
+    background-color: #1e1e27;
+}
+.links ul img{
+    width: 50px;
+    padding: 10px;
+}
+.payments ul img{
+    width: 100px;
+    padding: 10px;
+}
