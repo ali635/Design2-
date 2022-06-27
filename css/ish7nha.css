@@ -30,6 +30,11 @@ body{
     padding-bottom: 20px;
     
 }
+@media (max-width: 768px) {
+    .accordion {
+        padding-left: 20px;
+    }
+}
 .accordion .accordion-item {
     background-color: #1e1e27;
     color:white;
