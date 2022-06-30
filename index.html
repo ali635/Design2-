@@ -22,7 +22,7 @@
             <i class="fa-solid fa-cart-shopping fs-5 pe-lg-3 text-white" ></i>
             <li class="nav-item text-center d-lg-none">
                 <img src="imgs/logo-darkmode.svg" class="w-md-25" alt="" />
-              </li>
+            </li>
             <button class="navbar-toggler" 
                     type="button" 
                     data-bs-toggle="collapse" 
@@ -31,7 +31,7 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation">
             <i class="fa-solid fa-bars text-white"></i>
-        </button>
+            </button>
           <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
@@ -62,6 +62,7 @@
                     </li>
                 </ul>
               </li>
+              
               <li class="nav-item text-center d-none d-lg-block">
                 <img src="imgs/logo-darkmode.svg" class="w-25" alt="" />
               </li>
@@ -70,9 +71,37 @@
                 <div class="search ps-5 pe-3 d-none d-lg-block">
                     <i class="fa-solid fa-magnifying-glass btn btn-outline-light"></i>
                 </div>
-                <div class="btn btn-dark rounded-bill">
+                <button type="button" class="btn btn-dark rounded-bill" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
                     <i class="fa-solid fa-user-large pe-2"></i>
-                    <span class="btn-dark " type="submit">login</span>
+                    <span>login</span>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="m-auto" id="exampleModalCenterTitle">Login</h5>
+                            
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <h6 class="text-muted text-center">Choose your preferred entry method</h6>
+                        <div class="modal-body">
+                            <button type="button" class="btn btn-dark rounded-bill" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                <i class="fa-solid fa-at text-muted"></i><br>
+                                <span>Email</span>
+                            </button>
+                            <button type="button" class="btn btn-dark rounded-bill" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                <i class="fa-solid fa-phone text-muted"></i><br>
+                                <span>Phone Number</span>
+                            </button>
+                        </div>
+                        <div class="modal-footer">
+                            <h6 class="text-muted">You agree to the <a href="" class="text-light">terms and conditions</a></h6>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </form>
           </div>
