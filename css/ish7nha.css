@@ -86,7 +86,12 @@ footer{
     border: none ;
 }
 .modal-body {
-    padding: 3rem;
+    padding-left: 4rem;
+}
+@media (max-width: 768px) {
+    .modal-body {
+        margin-left: 1rem;
+    }
 }
 .modal-body button {
     width: 190px;
